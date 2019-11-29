@@ -19,4 +19,4 @@ var leagueTable = new Schema({
     points: Number
   });
 
-module.exports = mongoose.model('Table', TaskSchema);
+module.exports = mongoose.model('Table', leagueTable);
