@@ -1,6 +1,6 @@
 'use strict';
 module.exports = function(app) {
-  var leagueTableRoutes = require('../controllers/leagueTableController');
+  var leagueTableRoutes = require('../controller/leagueTableController');
 
   // Table Routes
   app.route('/league-table')

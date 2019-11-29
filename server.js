@@ -2,7 +2,7 @@ var express = require('express'),
   app = express(),
   port = process.env.PORT || 3000,
   mongoose = require('mongoose'),
-  Table = require('./api/models/leagueTableModel'), //created model loading here
+  Table = require('./api/models/leagueTableModels'), //created model loading here
   bodyParser = require('body-parser');
   
 // mongoose instance connection url connection
@@ -17,4 +17,4 @@ routes(app); //register the route
 
 app.listen(port);
 
-console.log('todo list RESTful API server started on: ' + port);
+console.log('MSC Global Tables RESTful API server started on: ' + port);
